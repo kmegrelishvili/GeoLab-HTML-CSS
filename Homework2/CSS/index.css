@@ -1,0 +1,101 @@
+.form-block input  {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+
+.form-block label  {
+    font-size: 18px;
+    margin:0px 0px 20px 20px;
+}
+
+.radio input {
+    margin:0px 0px 0px 20px;
+
+}
+
+.radio label {
+    font-size: 18px;
+    margin:0px 0px 0px 0px;
+
+}
+
+.radiotitle label {
+    font-size: 18px;
+    margin:0px 0px 0px 20px;
+
+}
+
+.name input {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+
+}
+
+.name label {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+    font-size: 18px;
+
+}
+
+
+.Addname input {
+    width: 90%;
+    height: 50px;
+    margin:0px 0px 0px 20px;
+
+}
+
+.Addname label {
+    font-size: 18px;
+    width: 90%;
+    height: 50px;
+    margin:0px 0px 20px 20px;
+
+}
+
+.button input {
+    width: 80px;
+    height: 50px;
+    color: cornsilk;
+    background-color: rgb(32, 84, 197);
+    margin:0px 0px 20px 20px;
+
+}
+
+.button label {
+    width: 90%;
+    height: 50px;
+    margin:0px 0px 20px 20px;
+
+}
+img {
+    margin:0px 0px 20px 20px;
+    width:450px;
+    height:180px
+
+}
+
+p {
+    width: 100%;
+    font-size: 18px;
+    color: grey;
+    margin:0px 0px 20px 20px;
+
+}
+
+select {
+    width: 90%;
+    height: 30px;
+    margin:0px 0px 20px 20px;
+    color: grey;
+
+}
+h1 {
+	color:grey;
+	font-size: 35px;
+    margin:0px 0px 20px 20px;
+}
