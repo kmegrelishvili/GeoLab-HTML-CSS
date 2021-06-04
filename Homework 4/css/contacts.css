@@ -1,0 +1,161 @@
+ 
+    .contacts {
+        
+        
+        position: relative;
+        background-image: url(../img/tumblr_p03op9ek7G1uhy7xjo2_1280.png);
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 400px;
+        color: rgba(240, 236, 230, 0.884)
+      
+        } 
+
+
+     .contacts_header{
+        color: rgba(240, 236, 230, 0.884);
+         text-align: center;
+         font-size: 60px;
+          }
+
+.contacts_cont1 {
+    margin-top: 1%;
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin-left: 25%;            
+}
+
+.main_p{
+    background: rgb(61,77,42);
+    
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20%;   
+}
+
+.contacts_cont2{
+    width: 110px;
+    height: auto;
+    display: flex;
+    margin-left: 75%; 
+    margin-top: -10%;
+}
+
+.mail {
+    background: rgb(61,77,42);  
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin-left: 70%; 
+
+}
+
+.main_p:hover, .mail:hover {
+    color: rgb(172,46,57);
+}
+ 
+.top-form {
+     margin-top: 5%;
+   
+  }
+
+  .name {
+    width: 35%;
+    height: 50px;
+    margin: top 1%;
+    margin-left: 25%;
+    float: none;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.7px;
+    color: darkgray;
+    font-size: 15px;
+  }
+  .bendingpower{
+      color: darkgray;
+      width: 16%;
+      height: 50px; 
+      margin-left: -1%;
+      float: none;
+      font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -.7px;
+
+  }
+
+.inner-form input:hover,
+.inner-form .text_area:hover {
+    border-top: rgb(61,77,42);
+}
+.input_email{
+    color: darkgray;
+    width: 50%;
+    height: 50px;
+    margin: top 4%;
+    margin-left: 25%;
+    float: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.7px;
+}
+
+.input_subject{
+    color: darkgray;
+    height: 50px;
+    margin: top 4%;
+    float: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.7px;
+    width: 50%;
+    margin-left: 25%;
+   
+}
+
+.text_area{
+    color: darkgray;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    height: 250px;
+    margin: top 4%;
+    margin-bottom: 10px;
+    float: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.7px;
+    
+   
+}
+
+.input_message {
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 350px;
+    background: rgba(116, 144, 122);
+    color:rgb(223, 223, 219);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 4px solid rgba(116, 144, 122, 0.884);
+    margin-bottom: 10px;
+
+   }  

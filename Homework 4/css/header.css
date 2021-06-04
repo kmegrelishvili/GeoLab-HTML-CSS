@@ -1,0 +1,140 @@
+* {
+     box-sizing: border-box; 
+    } 
+    /* note to myself: The star and style for global/everything */
+
+    header {
+        background: rgb(7, 6, 7)   }
+
+
+      header .wrap {
+          display: flex; /* so that content is horizontally aligned*/
+          position: relative;  /*absolute is used when we want to fix the hader and make it visible all the time*/
+          align-items: center;
+          justify-content: space-between; /* we need space betweeen content in this section */
+          width: 100%;
+          height: 100px;
+          margin: auto; 
+
+      }
+
+.header-sat {
+            color:rgb(223, 223, 219);
+            font-size: 36px;
+            font-weight: 200;
+            letter-spacing: 8px;
+            text-decoration:none;
+            text-transform: uppercase;
+            margin-left: 5%;
+            top: 20px;
+}
+
+  .header-sat2 {
+        color:rgb(223, 223, 219);
+        font-size: 28px;
+        font-weight: 200;
+        letter-spacing: 6px;
+        text-align: left;
+        text-decoration:none;
+        margin-left: 4%;
+
+    
+  }
+  .header-sat::before {
+      content:'';
+      display: inline-block;
+      width: 60px;
+      min-height: 41px;
+      content: url(../img/logo.png);
+  }
+
+  header nav {
+    width: 100%;
+    float: right;
+}
+
+header ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0;
+
+}
+
+header ul li a {
+    display: inline-block;
+    margin-right: 36px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+
+header ul li a:hover {
+    color: rgb(172,46,57);
+}
+
+.burger {
+    display: none;
+    padding: 11.2px;
+    border: 1px solid #ffffff;
+    outline: 1.8px solid rgba(240, 236, 230, 0.884);
+    background: rgba(240, 236, 230, 0.884);
+  } 
+
+.burger div {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    outline: 1.8px solid rgba(240, 236, 230, 0.884);
+    background:rgba(240, 236, 230, 0.884);
+  } 
+  
+.burger div:last-of-type {
+    margin-top: -0.5px;
+}
+
+
+@media screen and (max-width: 767px){
+    header nav {
+        display: none;
+        padding: 30% 0;
+    }
+    .burger {
+        display: block;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+        margin-right: 15px;
+    }
+    .header-h {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    header nav {
+        width: auto;
+        margin: auto;
+    }
+    header ul {
+        width: auto;
+    }
+}
